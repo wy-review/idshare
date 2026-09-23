@@ -1,0 +1,228 @@
+{
+  "all_three_required_before_readout": true,
+  "capacity": 20000,
+  "counts_path": "/data/idshare_baselines/strong_adamar_tailshare_20260904_r01/taac/train_identity_counts.npy",
+  "counts_sha256": "eaa0fe119fdaaeee0246f79be246f1080a4ae14b9464897472e66bbb7cf87372",
+  "engineering_budget": 1,
+  "formal_budget": 3,
+  "historical_updates_claimed": false,
+  "identity_rows": 17487680,
+  "long_tail_max_lookups": 10,
+  "paper_modified": false,
+  "protocol": "taac_sharing_support_20260917_r01",
+  "quantizer_configs": {
+    "2021": {
+      "assignment_freeze_fraction": 0.0,
+      "assignment_stability_mode": "free_nearest",
+      "assignment_switch_relative_improvement": 0.0,
+      "audit_enabled": false,
+      "base_embedding_mode": "split_zero_base",
+      "code_init_radius": 0.2,
+      "code_logit_bias_mode": "none",
+      "codebook_loss_weight": 1.0,
+      "codebook_ramp_fraction": 0.0,
+      "codebook_release_fraction": 0.0,
+      "codebook_size": 20000,
+      "codebook_size_by_field": {
+        "shared_item_id": 20000
+      },
+      "codebook_transform_mode": "none",
+      "commitment_weight": 0.0,
+      "compact_distance_outputs": true,
+      "continuous_residual": false,
+      "defer_cumulative_diagnostics": true,
+      "distance_backend": "gemm",
+      "distance_row_chunk_size": 1024,
+      "enabled": true,
+      "identity_fields": [
+        "shared_item_id"
+      ],
+      "initialization_seed": 2021,
+      "isolate_initialization_rng": true,
+      "margin": 0.1,
+      "multi_codebook_mode": "serial_residual",
+      "num_residual_levels": 1,
+      "num_subspaces": 1,
+      "private_row_initialization_mode": "train_first_touch_deterministic_code",
+      "regularization_ramp_fraction": 0.0,
+      "regularization_release_fraction": 0.0,
+      "sparse_batch_diagnostics": true,
+      "task_codebook_gradient_mode": "legacy_hard_plus_soft",
+      "temperature_end": 0.3,
+      "temperature_start": 1.0,
+      "zero_l2_weight": 0.0
+    },
+    "2024": {
+      "assignment_freeze_fraction": 0.0,
+      "assignment_stability_mode": "free_nearest",
+      "assignment_switch_relative_improvement": 0.0,
+      "audit_enabled": false,
+      "base_embedding_mode": "split_zero_base",
+      "code_init_radius": 0.2,
+      "code_logit_bias_mode": "none",
+      "codebook_loss_weight": 1.0,
+      "codebook_ramp_fraction": 0.0,
+      "codebook_release_fraction": 0.0,
+      "codebook_size": 20000,
+      "codebook_size_by_field": {
+        "shared_item_id": 20000
+      },
+      "codebook_transform_mode": "none",
+      "commitment_weight": 0.0,
+      "compact_distance_outputs": true,
+      "continuous_residual": false,
+      "defer_cumulative_diagnostics": true,
+      "distance_backend": "gemm",
+      "distance_row_chunk_size": 1024,
+      "enabled": true,
+      "identity_fields": [
+        "shared_item_id"
+      ],
+      "initialization_seed": 2024,
+      "isolate_initialization_rng": true,
+      "margin": 0.1,
+      "multi_codebook_mode": "serial_residual",
+      "num_residual_levels": 1,
+      "num_subspaces": 1,
+      "private_row_initialization_mode": "train_first_touch_deterministic_code",
+      "regularization_ramp_fraction": 0.0,
+      "regularization_release_fraction": 0.0,
+      "sparse_batch_diagnostics": true,
+      "task_codebook_gradient_mode": "legacy_hard_plus_soft",
+      "temperature_end": 0.3,
+      "temperature_start": 1.0,
+      "zero_l2_weight": 0.0
+    },
+    "42": {
+      "assignment_freeze_fraction": 0.0,
+      "assignment_stability_mode": "free_nearest",
+      "assignment_switch_relative_improvement": 0.0,
+      "audit_enabled": false,
+      "base_embedding_mode": "split_zero_base",
+      "code_init_radius": 0.2,
+      "code_logit_bias_mode": "none",
+      "codebook_loss_weight": 1.0,
+      "codebook_ramp_fraction": 0.0,
+      "codebook_release_fraction": 0.0,
+      "codebook_size": 20000,
+      "codebook_size_by_field": {
+        "shared_item_id": 20000
+      },
+      "codebook_transform_mode": "none",
+      "commitment_weight": 0.0,
+      "compact_distance_outputs": true,
+      "continuous_residual": false,
+      "defer_cumulative_diagnostics": true,
+      "distance_backend": "gemm",
+      "distance_row_chunk_size": 1024,
+      "enabled": true,
+      "identity_fields": [
+        "shared_item_id"
+      ],
+      "initialization_seed": 42,
+      "isolate_initialization_rng": true,
+      "margin": 0.1,
+      "multi_codebook_mode": "serial_residual",
+      "num_residual_levels": 1,
+      "num_subspaces": 1,
+      "private_row_initialization_mode": "train_first_touch_deterministic_code",
+      "regularization_ramp_fraction": 0.0,
+      "regularization_release_fraction": 0.0,
+      "sparse_batch_diagnostics": true,
+      "task_codebook_gradient_mode": "legacy_hard_plus_soft",
+      "temperature_end": 0.3,
+      "temperature_start": 1.0,
+      "zero_l2_weight": 0.0
+    }
+  },
+  "retention_root": "/data/idshare_diagnostics/taac_sharing_support_20260917_r01",
+  "seeds": [
+    2021,
+    42,
+    2024
+  ],
+  "sources": {
+    "2021": {
+      "continuous": {
+        "captures": 1,
+        "checkpoint_sha256": "98e81237152794f8be36af3b6b69a2381594790a2e20e5fb019c2077336faac4",
+        "directory": "/data/idshare_diagnostics/taac_frequency_replay_20260914_r01/continuous_s2021/fix1",
+        "finite_parameters": true,
+        "prediction_sha256": "f752d49d2daa2cbbf28256a058c59d93a1827338f391761edf33708e4506ad72",
+        "rows": 21951746,
+        "selected_epoch": 1,
+        "total_steps": 64074,
+        "validation_order_sha256": "ad28dd5816f19de0c4e367386dadfd39b2648899b06cbe2ad39e0af0707cee9d"
+      },
+      "idshare": {
+        "captures": 1,
+        "checkpoint_sha256": "9dfa361a009282c9fd28e14b35fcf06a19a1891a69c854c0a890b270dd717a1a",
+        "directory": "/data/idshare_diagnostics/taac_frequency_replay_20260914_r01/idshare_s2021/fix1",
+        "finite_parameters": true,
+        "prediction_sha256": "4ac74843eb394c08944d0ed8571ee138a38aff05e7b16a0e118609e30c927257",
+        "rows": 21951746,
+        "selected_epoch": 1,
+        "total_steps": 64074,
+        "validation_order_sha256": "ad28dd5816f19de0c4e367386dadfd39b2648899b06cbe2ad39e0af0707cee9d"
+      }
+    },
+    "2024": {
+      "continuous": {
+        "captures": 1,
+        "checkpoint_sha256": "c48656def521a475366da437d41caeca495b29b2ec532e0a10f60be3f7dd9b55",
+        "directory": "/data/idshare_diagnostics/taac_frequency_replay_20260914_r01/continuous_s2024/fix1",
+        "finite_parameters": true,
+        "prediction_sha256": "1df615a1fcfe29831edf37d82719f06be0ddab6166f2e9beb3b76a9e90312a99",
+        "rows": 21951746,
+        "selected_epoch": 1,
+        "total_steps": 64074,
+        "validation_order_sha256": "ad28dd5816f19de0c4e367386dadfd39b2648899b06cbe2ad39e0af0707cee9d"
+      },
+      "idshare": {
+        "captures": 1,
+        "checkpoint_sha256": "2b24c4f3694fa143361aa7fb772e35e2b1e89cdbd58bf1a8567e2ca55a5502e1",
+        "directory": "/data/idshare_diagnostics/taac_frequency_replay_20260914_r01/idshare_s2024/fix1",
+        "finite_parameters": true,
+        "prediction_sha256": "bc18692d40249380182ad5cd134dcc55ad45bf0863a1060710c33f4141064c4f",
+        "rows": 21951746,
+        "selected_epoch": 1,
+        "total_steps": 64074,
+        "validation_order_sha256": "ad28dd5816f19de0c4e367386dadfd39b2648899b06cbe2ad39e0af0707cee9d"
+      }
+    },
+    "42": {
+      "continuous": {
+        "captures": 1,
+        "checkpoint_sha256": "7484c875e92ac0637d053552a71655f34813c56a5936cb93374925a1b8eceafb",
+        "directory": "/data/idshare_diagnostics/taac_frequency_replay_20260914_r01/continuous_s42/fix1",
+        "finite_parameters": true,
+        "prediction_sha256": "e85a0e15d0383b944e3e9e9c8b0bc09008a5e7569792b238fc7df1773f089e63",
+        "rows": 21951746,
+        "selected_epoch": 1,
+        "total_steps": 64074,
+        "validation_order_sha256": "ad28dd5816f19de0c4e367386dadfd39b2648899b06cbe2ad39e0af0707cee9d"
+      },
+      "idshare": {
+        "captures": 1,
+        "checkpoint_sha256": "15f016b3bab81c11f5fd1f32524ed697559cfc6730b72edd0b1b98d6f18de75c",
+        "directory": "/data/idshare_diagnostics/taac_frequency_replay_20260914_r01/idshare_s42/fix1",
+        "finite_parameters": true,
+        "prediction_sha256": "497e65773afbdb86cfd1e47924a22905e59787fde1eb18653db6b56f5e40973d",
+        "rows": 21951746,
+        "selected_epoch": 1,
+        "total_steps": 64074,
+        "validation_order_sha256": "ad28dd5816f19de0c4e367386dadfd39b2648899b06cbe2ad39e0af0707cee9d"
+      }
+    }
+  },
+  "support_boundaries": [
+    0,
+    10,
+    100,
+    1000
+  ],
+  "training_steps": 0,
+  "uses_test_dataset": false,
+  "validation_rows": 21951746,
+  "worker_id": "e84b2a0d-c734-46c1-a989-09f960766925"
+}

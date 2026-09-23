@@ -1,0 +1,7 @@
+taac2025_time_split_side_top4:
+  data_root: /data/
+  dataset_id: taac2025_time_split_side_top4
+  data_format: parquet
+  train_data: experiment/TAAC_R05_TRAIN_MANIFEST.json
+  valid_data: experiment/TAAC_R05_VALIDATION_MANIFEST.json
+  test_data: null

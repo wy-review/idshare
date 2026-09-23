@@ -1,0 +1,135 @@
+{
+  "allowed_splits": [
+    "train",
+    "validation"
+  ],
+  "anchor_depth": 2,
+  "anchor_readout": "/workspace/IDShare/explore/end_to_end_discrete_feature_representation/model_robustness/reports/taac_unifiedmixer_no_l2_bridge_20260831_r01_fix1/MECHANICAL_READOUT.json",
+  "anchor_readout_sha256": "f2a4a6515919e84e32a7e35673bde8cb497a4f7e58951f02c518adb6176d01b7",
+  "anchor_structural": "/workspace/IDShare/explore/end_to_end_discrete_feature_representation/model_robustness/reports/taac_unifiedmixer_no_l2_bridge_20260831_r01_fix1/STRUCTURAL_READOUT.json",
+  "anchor_structural_sha256": "018f097af8842b96538d6223850991c6730527f4d25092f6ce456d62eb86be1c",
+  "automatic_retry_allowed": false,
+  "best_depth_selected": false,
+  "codebook_size": 20000,
+  "depth2_parameter_counts": {
+    "continuous": 364325089,
+    "idshare": 364685155
+  },
+  "depths": [
+    2,
+    4,
+    8
+  ],
+  "engineering_job_budget": 0,
+  "expected_identity_rows": 17487680,
+  "expected_train_rows": 131222882,
+  "expected_validation_rows": 21951746,
+  "formal_job_budget": 8,
+  "global_l2": 0.0,
+  "local_routes_checked": 18,
+  "new_depths": [
+    4,
+    8
+  ],
+  "new_seeds": [
+    2021,
+    2024
+  ],
+  "only_scientific_change": "number_of_mixing_blocks",
+  "only_scientific_change_from_r01": "seed",
+  "paper_changes_allowed": false,
+  "parameters_per_block": 393472,
+  "parent_matrix_sha256": "5ea69af3fb1a38ccd106799e946999ce1a742cfc5d69aa2b8e04101c4d427773",
+  "parent_package_sha256": "c51c3b00a41ea1c44941cb2d51dec14e9478c61e9ddc7aeb3c9fed8d2d9f91c7",
+  "parent_source_files_unchanged": true,
+  "protocol": "depth_scaling_three_seed_20260908_r02",
+  "r01_canonical": "/workspace/IDShare/explore/end_to_end_discrete_feature_representation/depth_scaling/reports/depth_scaling_20260907_r01/taac",
+  "r01_freeze_sha256": "4a7da1455c2c226ca1b7fbac180dbf5abc4a5abc1af5a7c30d26cc59d0601356",
+  "r01_package_sha256": "be036226d8d99aa88008ef27da2863ed622b43e0bcb0758955e5ba55916ce34e",
+  "reused_jobs": {
+    "d4_continuous_s42": "20260907_200713_c001625f",
+    "d4_idshare_s42": "20260908_013051_397d2ae2",
+    "d8_continuous_s42": "20260908_033155_23c98e90",
+    "d8_idshare_s42": "20260908_053823_2c37a130"
+  },
+  "reused_seed": 42,
+  "reused_submissions_sha256": "7da9e1d0e1889d22a604d2748276cc8574d6930220619c2f75663818dd8800f6",
+  "runs": {
+    "d4_continuous_s2021": {
+      "depth": 4,
+      "expected_parameters": 365112033,
+      "method": "continuous",
+      "run_key": "d4_continuous_s2021",
+      "seed": 2021,
+      "stage": "three_seed_extension"
+    },
+    "d4_continuous_s2024": {
+      "depth": 4,
+      "expected_parameters": 365112033,
+      "method": "continuous",
+      "run_key": "d4_continuous_s2024",
+      "seed": 2024,
+      "stage": "three_seed_extension"
+    },
+    "d4_idshare_s2021": {
+      "depth": 4,
+      "expected_parameters": 365472099,
+      "method": "idshare",
+      "run_key": "d4_idshare_s2021",
+      "seed": 2021,
+      "stage": "three_seed_extension"
+    },
+    "d4_idshare_s2024": {
+      "depth": 4,
+      "expected_parameters": 365472099,
+      "method": "idshare",
+      "run_key": "d4_idshare_s2024",
+      "seed": 2024,
+      "stage": "three_seed_extension"
+    },
+    "d8_continuous_s2021": {
+      "depth": 8,
+      "expected_parameters": 366685921,
+      "method": "continuous",
+      "run_key": "d8_continuous_s2021",
+      "seed": 2021,
+      "stage": "three_seed_extension"
+    },
+    "d8_continuous_s2024": {
+      "depth": 8,
+      "expected_parameters": 366685921,
+      "method": "continuous",
+      "run_key": "d8_continuous_s2024",
+      "seed": 2024,
+      "stage": "three_seed_extension"
+    },
+    "d8_idshare_s2021": {
+      "depth": 8,
+      "expected_parameters": 367045987,
+      "method": "idshare",
+      "run_key": "d8_idshare_s2021",
+      "seed": 2021,
+      "stage": "three_seed_extension"
+    },
+    "d8_idshare_s2024": {
+      "depth": 8,
+      "expected_parameters": 367045987,
+      "method": "idshare",
+      "run_key": "d8_idshare_s2024",
+      "seed": 2024,
+      "stage": "three_seed_extension"
+    }
+  },
+  "seeds": [
+    2021,
+    42,
+    2024
+  ],
+  "setting": "taac",
+  "startup_synthetic_steps": 3,
+  "total_formal_cells_with_reuse": 12,
+  "uses_test_dataset": false,
+  "uses_test_labels": false,
+  "validation_auc_blind_until_setting_complete": true,
+  "weight_decay": 0.0
+}

@@ -1,0 +1,135 @@
+{
+  "allowed_splits": [
+    "train",
+    "validation"
+  ],
+  "alpha_zero_atol": 2e-06,
+  "anchor_readout": "/workspace/IDShare/explore/end_to_end_discrete_feature_representation/model_robustness/reports/kuairand_rankmixer_v2_no_l2_bridge_20260831_r01_fix1/MECHANICAL_READOUT.json",
+  "anchor_readout_sha256": "b3e8a429ad5cb809c367559e586d8d318f62d71599799edc7f574d0c9d8e022f",
+  "anchor_structural_sha256": "055bde03ed0eba45f7b7ae20d737b8bc8e23f046a0f7fbcf94d5e3333979b899",
+  "automatic_retry_allowed": false,
+  "cache_path": "/data/idshare_baselines/strong_adamar_tailshare_20260904_r01/kuairand/train_identity_counts.npy",
+  "check_alpha": 0.0001,
+  "check_steps_per_arm": 64,
+  "development_seed": 42,
+  "engineering_job_budget": 1,
+  "expected_base_parameters": 702347695,
+  "expected_identity_rows": 25020526,
+  "expected_train_rows": 243480365,
+  "expected_validation_rows": 12080526,
+  "exponents": [
+    -6.5,
+    -4.5,
+    -2.5,
+    -1.0
+  ],
+  "formal_job_budget": 9,
+  "global_l2": 0.0,
+  "implementation_profile": "identity_row_ar_pytorch_adam_v1",
+  "paper_changes_allowed": false,
+  "parent_matrix_sha256": "3e71d7234d999da4fb8244d06cc88cac7db0d1aeb452f2c9ea410a6e8e32602f",
+  "parent_package_sha256": "24b551736853f8200f5624f14df954c41aeb50ef9503e1c789db0c47c4ffe267",
+  "parent_source_files_unchanged": true,
+  "protocol": "strong_adamar_tailshare_20260904_r01",
+  "runs": {
+    "adamar_confirm_s2024": {
+      "alpha": "from_complete_development_selection",
+      "method": "adamar",
+      "run_key": "adamar_confirm_s2024",
+      "seed": 2024,
+      "stage": "confirmation"
+    },
+    "adamar_confirm_s933888": {
+      "alpha": "from_complete_development_selection",
+      "method": "adamar",
+      "run_key": "adamar_confirm_s933888",
+      "seed": 933888,
+      "stage": "confirmation"
+    },
+    "adamar_dev_a0_s42": {
+      "alpha": 3.162277660168379e-07,
+      "exponent": -6.5,
+      "method": "adamar",
+      "run_key": "adamar_dev_a0_s42",
+      "seed": 42,
+      "stage": "development"
+    },
+    "adamar_dev_a1_s42": {
+      "alpha": 3.1622776601683795e-05,
+      "exponent": -4.5,
+      "method": "adamar",
+      "run_key": "adamar_dev_a1_s42",
+      "seed": 42,
+      "stage": "development"
+    },
+    "adamar_dev_a2_s42": {
+      "alpha": 0.0031622776601683794,
+      "exponent": -2.5,
+      "method": "adamar",
+      "run_key": "adamar_dev_a2_s42",
+      "seed": 42,
+      "stage": "development"
+    },
+    "adamar_dev_a3_s42": {
+      "alpha": 0.1,
+      "exponent": -1.0,
+      "method": "adamar",
+      "run_key": "adamar_dev_a3_s42",
+      "seed": 42,
+      "stage": "development"
+    },
+    "tailshare_tau5_s2024": {
+      "method": "tailshare",
+      "run_key": "tailshare_tau5_s2024",
+      "seed": 2024,
+      "stage": "tailshare",
+      "tau": 5
+    },
+    "tailshare_tau5_s42": {
+      "method": "tailshare",
+      "run_key": "tailshare_tau5_s42",
+      "seed": 42,
+      "stage": "tailshare",
+      "tau": 5
+    },
+    "tailshare_tau5_s933888": {
+      "method": "tailshare",
+      "run_key": "tailshare_tau5_s933888",
+      "seed": 933888,
+      "stage": "tailshare",
+      "tau": 5
+    }
+  },
+  "scope": "IDShare vs AdamAR vs TailShare; no global L2 comparison",
+  "seeds": [
+    42,
+    2024,
+    933888
+  ],
+  "selection": {
+    "complete_development_required": 4,
+    "confirmation_does_not_reselect": true,
+    "expand_grid": false,
+    "metric": "best_validation_auc",
+    "tie_break": "smaller_alpha",
+    "tie_tolerance": 1e-12
+  },
+  "setting": "kuairand",
+  "tailshare": {
+    "capacity_matched": false,
+    "frequency_scope": "train video_id occurrences",
+    "initialization": "distinct trainable zero vector",
+    "rule": "0 < train_occurrences <= tau; real IDs only",
+    "special_rows_unchanged": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "tau": 5,
+    "unseen": "preserve original frozen mapping"
+  },
+  "uses_test_dataset": false,
+  "uses_test_labels": false,
+  "weight_decay": 0.0
+}

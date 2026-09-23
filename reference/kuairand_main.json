@@ -1,0 +1,317 @@
+{
+  "backbone": "RankMixerV2",
+  "best_dose_selected": false,
+  "freeze_sha256": "e0c2876e0aa54ea70acdc28325498d5a48e33fde29aeab7d309141951cb3a454",
+  "matrix_sha256": "3e71d7234d999da4fb8244d06cc88cac7db0d1aeb452f2c9ea410a6e8e32602f",
+  "new_north_star_verdict_issued": false,
+  "package_sha256": "24b551736853f8200f5624f14df954c41aeb50ef9503e1c789db0c47c4ffe267",
+  "paper_update_authorized": false,
+  "per_dose": {
+    "0": {
+      "coefficient": 0.0,
+      "continuous": {
+        "mean": 0.7537029360651545,
+        "sample_std": 0.0003999307146790099
+      },
+      "idshare": {
+        "mean": 0.7544461191522744,
+        "sample_std": 0.00014215256790064002
+      },
+      "paired_difference": {
+        "maximum": 0.0012451793080738849,
+        "mean": 0.0007431830871198475,
+        "minimum": 0.00017383037064200302,
+        "positive_seed_count": 3,
+        "sample_std": 0.0005388411728432062,
+        "seed_count": 3
+      },
+      "per_seed": {
+        "2024": {
+          "continuous_validation_auc": 0.7536232122543656,
+          "idshare_minus_continuous": 0.0008105395826436546,
+          "idshare_validation_auc": 0.7544337518370092
+        },
+        "42": {
+          "continuous_validation_auc": 0.7533488720104518,
+          "idshare_minus_continuous": 0.0012451793080738849,
+          "idshare_validation_auc": 0.7545940513185256
+        },
+        "933888": {
+          "continuous_validation_auc": 0.7541367239306465,
+          "idshare_minus_continuous": 0.00017383037064200302,
+          "idshare_validation_auc": 0.7543105543012885
+        }
+      },
+      "response_from_zero": {
+        "continuous": 0.0,
+        "idshare": 0.0,
+        "interaction": 0.0
+      },
+      "source": "reused_frozen_r01"
+    },
+    "1e-10": {
+      "coefficient": 1e-10,
+      "continuous": {
+        "mean": 0.7483979543100986,
+        "sample_std": 0.000343965356209989
+      },
+      "idshare": {
+        "mean": 0.7539274620075688,
+        "sample_std": 0.0002842690763408878
+      },
+      "paired_difference": {
+        "maximum": 0.005914205542669748,
+        "mean": 0.005529507697470293,
+        "minimum": 0.005119594441657771,
+        "positive_seed_count": 3,
+        "sample_std": 0.00039790521881744126,
+        "seed_count": 3
+      },
+      "per_seed": {
+        "2024": {
+          "continuous_validation_auc": 0.7480083101158916,
+          "idshare_minus_continuous": 0.005914205542669748,
+          "idshare_validation_auc": 0.7539225156585614
+        },
+        "42": {
+          "continuous_validation_auc": 0.7485261039412714,
+          "idshare_minus_continuous": 0.005119594441657771,
+          "idshare_validation_auc": 0.7536456983829292
+        },
+        "933888": {
+          "continuous_validation_auc": 0.7486594488731327,
+          "idshare_minus_continuous": 0.005554723108083359,
+          "idshare_validation_auc": 0.7542141719812161
+        }
+      },
+      "response_from_zero": {
+        "continuous": -0.005304981755055893,
+        "idshare": -0.0005186571447056698,
+        "interaction": 0.004786324610350223
+      },
+      "source": "r02"
+    },
+    "1e-11": {
+      "coefficient": 1e-11,
+      "continuous": {
+        "mean": 0.75356013745773,
+        "sample_std": 0.00040488597234865543
+      },
+      "idshare": {
+        "mean": 0.754302401161592,
+        "sample_std": 0.0003009778644198233
+      },
+      "paired_difference": {
+        "maximum": 0.0010180185202242065,
+        "mean": 0.0007422637038620635,
+        "minimum": 0.00048488046877692703,
+        "positive_seed_count": 3,
+        "sample_std": 0.0002670434079400084,
+        "seed_count": 3
+      },
+      "per_seed": {
+        "2024": {
+          "continuous_validation_auc": 0.7534359688473371,
+          "idshare_minus_continuous": 0.0010180185202242065,
+          "idshare_validation_auc": 0.7544539873675613
+        },
+        "42": {
+          "continuous_validation_auc": 0.7540125668253386,
+          "idshare_minus_continuous": 0.00048488046877692703,
+          "idshare_validation_auc": 0.7544974472941155
+        },
+        "933888": {
+          "continuous_validation_auc": 0.7532318767005143,
+          "idshare_minus_continuous": 0.000723892122585057,
+          "idshare_validation_auc": 0.7539557688230993
+        }
+      },
+      "response_from_zero": {
+        "continuous": -0.00014279860742449912,
+        "idshare": -0.00014371799068246816,
+        "interaction": -9.193832579690309e-07
+      },
+      "source": "r02"
+    },
+    "1e-8": {
+      "coefficient": 1e-08,
+      "continuous": {
+        "mean": 0.749719465000013,
+        "sample_std": 0.0006506021394407527
+      },
+      "idshare": {
+        "mean": 0.7545494801253723,
+        "sample_std": 0.000445944246260694
+      },
+      "paired_difference": {
+        "maximum": 0.004972379386426917,
+        "mean": 0.004830015125359188,
+        "minimum": 0.004595299966787758,
+        "positive_seed_count": 3,
+        "sample_std": 0.0002048017050250208,
+        "seed_count": 3
+      },
+      "per_seed": {
+        "2024": {
+          "continuous_validation_auc": 0.7494047778837487,
+          "idshare_minus_continuous": 0.00492236602286289,
+          "idshare_validation_auc": 0.7543271439066116
+        },
+        "42": {
+          "continuous_validation_auc": 0.7492860360486393,
+          "idshare_minus_continuous": 0.004972379386426917,
+          "idshare_validation_auc": 0.7542584154350662
+        },
+        "933888": {
+          "continuous_validation_auc": 0.750467581067651,
+          "idshare_minus_continuous": 0.004595299966787758,
+          "idshare_validation_auc": 0.7550628810344387
+        }
+      },
+      "response_from_zero": {
+        "continuous": -0.0039834710651415195,
+        "idshare": 0.00010336097309782133,
+        "interaction": 0.004086832038239341
+      },
+      "source": "r02"
+    },
+    "1e-9": {
+      "coefficient": 1e-09,
+      "continuous": {
+        "mean": 0.7500016744549826,
+        "sample_std": 0.0009638805273659223
+      },
+      "idshare": {
+        "mean": 0.7546013913878639,
+        "sample_std": 0.0002983927132349021
+      },
+      "paired_difference": {
+        "maximum": 0.00553935327092725,
+        "mean": 0.004599716932881193,
+        "minimum": 0.003905327790569957,
+        "positive_seed_count": 3,
+        "sample_std": 0.0008441679085798428,
+        "seed_count": 3
+      },
+      "per_seed": {
+        "2024": {
+          "continuous_validation_auc": 0.7490667209950006,
+          "idshare_minus_continuous": 0.00553935327092725,
+          "idshare_validation_auc": 0.7546060742659279
+        },
+        "42": {
+          "continuous_validation_auc": 0.7499462150590595,
+          "idshare_minus_continuous": 0.004354469737146371,
+          "idshare_validation_auc": 0.7543006847962058
+        },
+        "933888": {
+          "continuous_validation_auc": 0.7509920873108876,
+          "idshare_minus_continuous": 0.003905327790569957,
+          "idshare_validation_auc": 0.7548974151014576
+        }
+      },
+      "response_from_zero": {
+        "continuous": -0.0037012616101719242,
+        "idshare": 0.00015527223558942094,
+        "interaction": 0.003856533845761345
+      },
+      "source": "r02"
+    },
+    "3e-10": {
+      "coefficient": 3e-10,
+      "continuous": {
+        "mean": 0.7486984790192471,
+        "sample_std": 0.00014603321606344513
+      },
+      "idshare": {
+        "mean": 0.7546335763997956,
+        "sample_std": 0.00017986110047715805
+      },
+      "paired_difference": {
+        "maximum": 0.006185062611433478,
+        "mean": 0.005935097380548426,
+        "minimum": 0.005566507990460656,
+        "positive_seed_count": 3,
+        "sample_std": 0.0003258929627065024,
+        "seed_count": 3
+      },
+      "per_seed": {
+        "2024": {
+          "continuous_validation_auc": 0.7486458355070742,
+          "idshare_minus_continuous": 0.006053721539751145,
+          "idshare_validation_auc": 0.7546995570468253
+        },
+        "42": {
+          "continuous_validation_auc": 0.748863535038093,
+          "idshare_minus_continuous": 0.005566507990460656,
+          "idshare_validation_auc": 0.7544300430285537
+        },
+        "933888": {
+          "continuous_validation_auc": 0.7485860665125741,
+          "idshare_minus_continuous": 0.006185062611433478,
+          "idshare_validation_auc": 0.7547711291240076
+        }
+      },
+      "response_from_zero": {
+        "continuous": -0.005004457045907351,
+        "idshare": 0.0001874572475211167,
+        "interaction": 0.005191914293428468
+      },
+      "source": "r02"
+    },
+    "3e-9": {
+      "coefficient": 3e-09,
+      "continuous": {
+        "mean": 0.7498126518184997,
+        "sample_std": 0.000562964269467607
+      },
+      "idshare": {
+        "mean": 0.7545511677502027,
+        "sample_std": 0.000786665811294825
+      },
+      "paired_difference": {
+        "maximum": 0.004993154512628828,
+        "mean": 0.0047385159317031205,
+        "minimum": 0.0045239078357227624,
+        "positive_seed_count": 3,
+        "sample_std": 0.00023717069958273978,
+        "seed_count": 3
+      },
+      "per_seed": {
+        "2024": {
+          "continuous_validation_auc": 0.7499773258882811,
+          "idshare_minus_continuous": 0.004698485446757772,
+          "idshare_validation_auc": 0.7546758113350389
+        },
+        "42": {
+          "continuous_validation_auc": 0.7491857134553389,
+          "idshare_minus_continuous": 0.0045239078357227624,
+          "idshare_validation_auc": 0.7537096212910617
+        },
+        "933888": {
+          "continuous_validation_auc": 0.7502749161118788,
+          "idshare_minus_continuous": 0.004993154512628828,
+          "idshare_validation_auc": 0.7552680706245076
+        }
+      },
+      "response_from_zero": {
+        "continuous": -0.0038902842466548293,
+        "idshare": 0.00010504859792825894,
+        "interaction": 0.003995332844583088
+      },
+      "source": "r02"
+    }
+  },
+  "protocol": "kuairand_rankmixer_v2_l2_response_r02",
+  "readout_status": "BACKBONE_L2_RESPONSE_DIAGNOSTIC_COMPLETE",
+  "seeds": [
+    42,
+    2024,
+    933888
+  ],
+  "source_manifest_sha256": "8496b45dac870da343552b47776ee65186c3e749ae6b244e10657a6323fdf68c",
+  "structural_readout_sha256": "3653069ec14495fb8b5f43d99db294444cff6d9ce7ac34f29d2c39f27b1a23a5",
+  "uses_test_dataset": false,
+  "uses_test_labels": false,
+  "zero_dose_anchor_readout_sha256": "b3e8a429ad5cb809c367559e586d8d318f62d71599799edc7f574d0c9d8e022f"
+}

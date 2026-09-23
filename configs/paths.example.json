@@ -1,0 +1,12 @@
+{
+  "taac": {
+    "root": "/data/taac/prepared",
+    "feature_map_root": "/data/taac/features",
+    "seen_mask": "/data/taac/prepared/north_star_identity_cache/taac_train_input_seen_mask_r01.npy",
+    "lookup_counts": "/data/taac/train_lookup_counts.npy"
+  },
+  "kuairand": {
+    "processed_manifest": "/data/kuairand/processed/manifest.json",
+    "lookup_counts": "/data/kuairand/train_lookup_counts.npy"
+  }
+}

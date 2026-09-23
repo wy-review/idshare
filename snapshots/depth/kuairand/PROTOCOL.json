@@ -1,0 +1,135 @@
+{
+  "allowed_splits": [
+    "train",
+    "validation"
+  ],
+  "anchor_depth": 2,
+  "anchor_readout": "/workspace/IDShare/explore/end_to_end_discrete_feature_representation/model_robustness/reports/kuairand_rankmixer_v2_no_l2_bridge_20260831_r01_fix1/MECHANICAL_READOUT.json",
+  "anchor_readout_sha256": "b3e8a429ad5cb809c367559e586d8d318f62d71599799edc7f574d0c9d8e022f",
+  "anchor_structural": "/workspace/IDShare/explore/end_to_end_discrete_feature_representation/model_robustness/reports/kuairand_rankmixer_v2_no_l2_bridge_20260831_r01_fix1/STRUCTURAL_READOUT.json",
+  "anchor_structural_sha256": "055bde03ed0eba45f7b7ae20d737b8bc8e23f046a0f7fbcf94d5e3333979b899",
+  "automatic_retry_allowed": false,
+  "best_depth_selected": false,
+  "codebook_size": 40000,
+  "depth2_parameter_counts": {
+    "continuous": 702347695,
+    "idshare": 703067761
+  },
+  "depths": [
+    2,
+    4,
+    8
+  ],
+  "engineering_job_budget": 0,
+  "expected_identity_rows": 25020526,
+  "expected_train_rows": 243480365,
+  "expected_validation_rows": 12080526,
+  "formal_job_budget": 8,
+  "global_l2": 0.0,
+  "local_routes_checked": 18,
+  "new_depths": [
+    4,
+    8
+  ],
+  "new_seeds": [
+    2024,
+    933888
+  ],
+  "only_scientific_change": "number_of_mixing_blocks",
+  "only_scientific_change_from_r01": "seed",
+  "paper_changes_allowed": false,
+  "parameters_per_block": 1414362,
+  "parent_matrix_sha256": "3e71d7234d999da4fb8244d06cc88cac7db0d1aeb452f2c9ea410a6e8e32602f",
+  "parent_package_sha256": "24b551736853f8200f5624f14df954c41aeb50ef9503e1c789db0c47c4ffe267",
+  "parent_source_files_unchanged": true,
+  "protocol": "depth_scaling_three_seed_20260908_r02",
+  "r01_canonical": "/workspace/IDShare/explore/end_to_end_discrete_feature_representation/depth_scaling/reports/depth_scaling_20260907_r01/kuairand",
+  "r01_freeze_sha256": "4a7da1455c2c226ca1b7fbac180dbf5abc4a5abc1af5a7c30d26cc59d0601356",
+  "r01_package_sha256": "d9d90b3dd009d1e757ba8ade085e0a3b2e8b4e7264b1ca4e0f5f34d007bc2afc",
+  "reused_jobs": {
+    "d4_continuous_s42": "20260907_200717_af8eaa35",
+    "d4_idshare_s42": "20260907_200718_04e36b44",
+    "d8_continuous_s42": "20260907_200720_5ff3440f",
+    "d8_idshare_s42": "20260907_200721_7bc7f577"
+  },
+  "reused_seed": 42,
+  "reused_submissions_sha256": "6dab624b11a2910a8deac9a11d1bf8c9fd72875b001604ef3675c94f3a80a2a9",
+  "runs": {
+    "d4_continuous_s2024": {
+      "depth": 4,
+      "expected_parameters": 705176419,
+      "method": "continuous",
+      "run_key": "d4_continuous_s2024",
+      "seed": 2024,
+      "stage": "three_seed_extension"
+    },
+    "d4_continuous_s933888": {
+      "depth": 4,
+      "expected_parameters": 705176419,
+      "method": "continuous",
+      "run_key": "d4_continuous_s933888",
+      "seed": 933888,
+      "stage": "three_seed_extension"
+    },
+    "d4_idshare_s2024": {
+      "depth": 4,
+      "expected_parameters": 705896485,
+      "method": "idshare",
+      "run_key": "d4_idshare_s2024",
+      "seed": 2024,
+      "stage": "three_seed_extension"
+    },
+    "d4_idshare_s933888": {
+      "depth": 4,
+      "expected_parameters": 705896485,
+      "method": "idshare",
+      "run_key": "d4_idshare_s933888",
+      "seed": 933888,
+      "stage": "three_seed_extension"
+    },
+    "d8_continuous_s2024": {
+      "depth": 8,
+      "expected_parameters": 710833867,
+      "method": "continuous",
+      "run_key": "d8_continuous_s2024",
+      "seed": 2024,
+      "stage": "three_seed_extension"
+    },
+    "d8_continuous_s933888": {
+      "depth": 8,
+      "expected_parameters": 710833867,
+      "method": "continuous",
+      "run_key": "d8_continuous_s933888",
+      "seed": 933888,
+      "stage": "three_seed_extension"
+    },
+    "d8_idshare_s2024": {
+      "depth": 8,
+      "expected_parameters": 711553933,
+      "method": "idshare",
+      "run_key": "d8_idshare_s2024",
+      "seed": 2024,
+      "stage": "three_seed_extension"
+    },
+    "d8_idshare_s933888": {
+      "depth": 8,
+      "expected_parameters": 711553933,
+      "method": "idshare",
+      "run_key": "d8_idshare_s933888",
+      "seed": 933888,
+      "stage": "three_seed_extension"
+    }
+  },
+  "seeds": [
+    42,
+    2024,
+    933888
+  ],
+  "setting": "kuairand",
+  "startup_synthetic_steps": 3,
+  "total_formal_cells_with_reuse": 12,
+  "uses_test_dataset": false,
+  "uses_test_labels": false,
+  "validation_auc_blind_until_setting_complete": true,
+  "weight_decay": 0.0
+}

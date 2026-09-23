@@ -1,0 +1,106 @@
+{
+  "allowed_splits": [
+    "train",
+    "validation"
+  ],
+  "alpha_zero_atol": 2e-06,
+  "anchor_readout": "/workspace/IDShare/explore/end_to_end_discrete_feature_representation/model_robustness/reports/taac_unifiedmixer_no_l2_bridge_20260831_r01_fix1/MECHANICAL_READOUT.json",
+  "anchor_readout_sha256": "f2a4a6515919e84e32a7e35673bde8cb497a4f7e58951f02c518adb6176d01b7",
+  "anchor_structural_sha256": "018f097af8842b96538d6223850991c6730527f4d25092f6ce456d62eb86be1c",
+  "automatic_retry_allowed": false,
+  "cache_path": "/data/idshare_baselines/strong_adamar_tailshare_20260904_r01/taac/train_identity_counts.npy",
+  "check_alpha": 0.0001,
+  "check_steps_per_arm": 64,
+  "development_seed": 42,
+  "engineering_job_budget": 1,
+  "expected_base_parameters": 364325089,
+  "expected_identity_rows": 17487680,
+  "expected_train_rows": 131222882,
+  "expected_validation_rows": 21951746,
+  "exponents": [
+    -8.0,
+    -6.5,
+    -6.0,
+    -4.5,
+    -2.5,
+    -1.0
+  ],
+  "extension_of": "7bc75c5a3528413174c75a44239ea10462fc34828e5bf6892dda034728b8e67c",
+  "formal_job_budget": 4,
+  "global_l2": 0.0,
+  "implementation_profile": "identity_row_ar_pytorch_adam_v1",
+  "new_alphas": [
+    1e-08,
+    1e-06
+  ],
+  "paper_changes_allowed": false,
+  "parent_matrix_sha256": "5ea69af3fb1a38ccd106799e946999ce1a742cfc5d69aa2b8e04101c4d427773",
+  "parent_package_sha256": "c51c3b00a41ea1c44941cb2d51dec14e9478c61e9ddc7aeb3c9fed8d2d9f91c7",
+  "parent_source_files_unchanged": true,
+  "previous_results_reused": true,
+  "protocol": "claim_completion_20260913_r01",
+  "runs": {
+    "adamar_ext_a0_s42": {
+      "alpha": 1e-08,
+      "exponent": -8.0,
+      "method": "adamar",
+      "run_key": "adamar_ext_a0_s42",
+      "seed": 42,
+      "stage": "development"
+    },
+    "adamar_ext_a1_s42": {
+      "alpha": 1e-06,
+      "exponent": -6.0,
+      "method": "adamar",
+      "run_key": "adamar_ext_a1_s42",
+      "seed": 42,
+      "stage": "development"
+    },
+    "adamar_ext_confirm_s2021": {
+      "alpha": "from_complete_development_selection",
+      "method": "adamar",
+      "run_key": "adamar_ext_confirm_s2021",
+      "seed": 2021,
+      "stage": "confirmation"
+    },
+    "adamar_ext_confirm_s2024": {
+      "alpha": "from_complete_development_selection",
+      "method": "adamar",
+      "run_key": "adamar_ext_confirm_s2024",
+      "seed": 2024,
+      "stage": "confirmation"
+    }
+  },
+  "scope": "IDShare vs AdamAR vs TailShare; no global L2 comparison",
+  "seeds": [
+    2021,
+    42,
+    2024
+  ],
+  "selection": {
+    "complete_development_required": 6,
+    "confirmation_does_not_reselect": true,
+    "expand_grid": false,
+    "metric": "best_validation_auc",
+    "tie_break": "smaller_alpha",
+    "tie_tolerance": 1e-12
+  },
+  "setting": "taac",
+  "tailshare": {
+    "capacity_matched": false,
+    "frequency_scope": "train target + truncated history occurrences",
+    "initialization": "distinct trainable zero vector",
+    "rule": "0 < train_occurrences <= tau; real IDs only",
+    "special_rows_unchanged": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "tau": 5,
+    "unseen": "preserve original frozen mapping"
+  },
+  "uses_test_dataset": false,
+  "uses_test_labels": false,
+  "weight_decay": 0.0
+}

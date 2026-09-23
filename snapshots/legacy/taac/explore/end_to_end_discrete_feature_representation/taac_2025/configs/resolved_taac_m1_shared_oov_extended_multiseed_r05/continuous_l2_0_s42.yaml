@@ -1,0 +1,57 @@
+dataset:
+  name: taac2025_time_temporal
+  type: taac2025_time_temporal
+  path: /data/taac2025/10m-time-split-train-val-test-20260531
+  split:
+    train: train
+    val: val
+  maxlen: 100
+  max_rows: 0
+  use_user_features: true
+  use_item_features: true
+  use_action_types: false
+  exclude_target_item_from_sparse: true
+  train_input_seen_mask_path: /data/taac2025/10m-time-split-train-val-test-20260531/north_star_identity_cache/taac_train_input_seen_mask_r01.npy
+  train_input_seen_mask_sha256: 28c508568071ff0f963f4bbe1b8d34c62a591e64716a1566169ca11383e58406
+  expected_split_counts:
+    train:
+      rows: 131222882
+      positives: 8527415
+      negatives: 122695467
+    val:
+      rows: 21951746
+      positives: 1236199
+      negatives: 20715547
+  consumed_content_fingerprints:
+    train: 77a0d0d587c46454d8210154141781eac93e1ebfd07aec395bc4fb2e38785b62
+    val: 6201e5e88f835f48e87e28d395b89435a5b5d2e4ed0ed369cf46fa315eba04e8
+  content_fingerprint_algorithm: dual-stream-le-int64-target-int8-label-with-row-count-v2
+  content_fingerprint_helper_sha256: 7488954ffce023c6644cf17dfe9948f79b4b61fb87b241e6e3425f4484dfbe03
+model:
+  name: din
+  embedding_dim: 16
+  attention_dim: 32
+  mlp_dims:
+  - 128
+  - 64
+  dropout: 0.1
+  use_sparse_features: true
+  shared_item_quantization_deduplicate_occurrences: true
+training:
+  batch_size: 2048
+  lr: 0.001
+  optimizer: adam
+  optimizer_foreach: false
+  weight_decay: 0.0
+  zero_anchor_full_table_l2:
+    enabled: false
+  epochs: 1
+  num_workers: 4
+  deterministic: true
+  grad_clip: 1.0
+  use_amp: false
+  log_every: 500
+  eval_every: 0
+  suppress_effect_metric_logs: true
+  save_dir: /tmp/taac_m1_shared_oov_extended_multiseed_r05/continuous_l2_0_s42
+seed: 42

@@ -1,0 +1,6 @@
+IDShare: Learned Sharing as Regularization for Long-Tailed ID Embeddings
+Copyright 2026 Anonymous Authors, for original IDShare contributions.
+
+This distribution includes FuxiCTR-derived components with their own notices.
+See THIRD_PARTY_NOTICES.md and third_party/FuxiCTR-LICENSE. Their names identify
+upstream contributors, not the anonymous authors of the IDShare paper.

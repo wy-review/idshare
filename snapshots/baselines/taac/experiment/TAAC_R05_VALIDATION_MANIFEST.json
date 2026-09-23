@@ -1,0 +1,6 @@
+{
+  "index_array": null,
+  "raw_data_root": "/data/taac2025/10m-time-split-train-val-test-20260531",
+  "samples_path": "/data/taac2025/10m-time-split-train-val-test-20260531/val/samples.parquet",
+  "split": "validation"
+}

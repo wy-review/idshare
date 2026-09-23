@@ -1,0 +1,98 @@
+[
+  {
+    "key": "baselines/taac",
+    "source_archive": "package.tar.gz",
+    "archive_sha256": "7bc75c5a3528413174c75a44239ea10462fc34828e5bf6892dda034728b8e67c",
+    "files": 72
+  },
+  {
+    "key": "baselines/kuairand",
+    "source_archive": "package.tar.gz",
+    "archive_sha256": "add456f4ed1482ef2ad8217bcd1dfbea039e6e8784a00636d98cc638e8a26553",
+    "files": 81
+  },
+  {
+    "key": "frozenhash/taac",
+    "source_archive": "package.tar.gz",
+    "archive_sha256": "ab0d704eee6e21152ad371665a18d9346fec1553e9885d74464f4828b897558a",
+    "files": 72
+  },
+  {
+    "key": "frozenhash/kuairand",
+    "source_archive": "package.tar.gz",
+    "archive_sha256": "c5f24aae8b0b8278f6755ebce99cfe8d86d81e44eb47c4b158395b2098f9b881",
+    "files": 81
+  },
+  {
+    "key": "depth/taac",
+    "source_archive": "package.tar.gz",
+    "archive_sha256": "dfcb2bac59a80cc01b976b04267d7e1312b0b2e834300e271502d7cb87e3c5c1",
+    "files": 73
+  },
+  {
+    "key": "depth/kuairand",
+    "source_archive": "package.tar.gz",
+    "archive_sha256": "2d95a7f557598e9d7bf5dce237eb06bd7887e0368a15dfe9614d294b4f31196a",
+    "files": 82
+  },
+  {
+    "key": "capacity/taac",
+    "source_archive": "package.tar.gz",
+    "archive_sha256": "a7a5db10af2765d5ef3f06121ba8069e022eb87431099fd7cf3e63535e62e191",
+    "files": 74
+  },
+  {
+    "key": "capacity/kuairand",
+    "source_archive": "package.tar.gz",
+    "archive_sha256": "de7f5d7af1aa6aa19d4d05d7b9dad89617b06dab9406c20318adb6895ab27b77",
+    "files": 83
+  },
+  {
+    "key": "adamar_extension/taac",
+    "source_archive": "package.tar.gz",
+    "archive_sha256": "849752f32667feeffd8a52d7eea2af9f1a2a374089e64d5d2e4c807ee3412a07",
+    "files": 73
+  },
+  {
+    "key": "adamar_extension/kuairand",
+    "source_archive": "package.tar.gz",
+    "archive_sha256": "33408977b9097b17c4de96df6e8ea0768cb0df0ce9cd1448ce0fecd088805f77",
+    "files": 82
+  },
+  {
+    "key": "frequency/taac",
+    "source_archive": "package.tar.gz",
+    "archive_sha256": "51642b637f3c8b5ae802538400151f264cea6c265c39f6c5e856dc5ab17a62c5",
+    "files": 74
+  },
+  {
+    "key": "support/taac",
+    "source_archive": "package.tar.gz",
+    "archive_sha256": "de6905edc9e962c95db1806fb07b6f4881abc5dd2fbd5f8a45ddddd7a126658f",
+    "files": 6
+  },
+  {
+    "key": "continuation/taac",
+    "source_archive": "package.tar.gz",
+    "archive_sha256": "51ffce63761903ca04c2c9b8e948587fb9441885de26a91f875bfcfd9e30e4d8",
+    "files": 69
+  },
+  {
+    "key": "dense_trajectory/taac",
+    "source_archive": "package.tar.gz",
+    "archive_sha256": "fe45015ed12bea84c64e1a59141b2d15f892a182b22f4fbfbcdf8277923e41df",
+    "files": 76
+  },
+  {
+    "key": "legacy/taac",
+    "source_archive": "taac_m1_shared_oov_extended_multiseed_r05_formal_package.tar",
+    "archive_sha256": "ba45f032ee696880410d626619ef4d8a067abfccbb9c1cdc8e3350bb291e5475",
+    "files": 117
+  },
+  {
+    "key": "legacy/kuairand",
+    "source_archive": "kuairand_claim_b_high_dose_five_seed_r02.formal.tar.gz",
+    "archive_sha256": "e42d941f5d7a3dcae8ce6326a163f5c0bc526c313fc43a2d18679e3c51d30772",
+    "files": 76
+  }
+]

@@ -1,0 +1,307 @@
+{
+  "backbone": "UnifiedMixer",
+  "best_dose_selected": false,
+  "new_north_star_verdict_issued": false,
+  "paper_update_authorized": false,
+  "per_dose": {
+    "0": {
+      "coefficient": 0.0,
+      "continuous": {
+        "mean": 0.7706950610077451,
+        "sample_std": 0.00028300646475329686
+      },
+      "idshare": {
+        "mean": 0.775260055798444,
+        "sample_std": 0.0017845061565026955
+      },
+      "paired_difference": {
+        "maximum": 0.00650599976408428,
+        "mean": 0.004564994790699013,
+        "minimum": 0.0025573539414082136,
+        "positive_seed_count": 3,
+        "sample_std": 0.0019751661229381596,
+        "seed_count": 3
+      },
+      "per_seed": {
+        "2021": {
+          "continuous_validation_auc": 0.7707913629765473,
+          "idshare_minus_continuous": 0.0025573539414082136,
+          "idshare_validation_auc": 0.7733487169179555
+        },
+        "2024": {
+          "continuous_validation_auc": 0.7709173487542902,
+          "idshare_minus_continuous": 0.004631630666604547,
+          "idshare_validation_auc": 0.7755489794208947
+        },
+        "42": {
+          "continuous_validation_auc": 0.7703764712923978,
+          "idshare_minus_continuous": 0.00650599976408428,
+          "idshare_validation_auc": 0.7768824710564821
+        }
+      },
+      "response_from_zero": {
+        "continuous": 0.0,
+        "idshare": 0.0,
+        "interaction": 0.0
+      },
+      "source": "reused_frozen_r01"
+    },
+    "1e-10": {
+      "coefficient": 1e-10,
+      "continuous": {
+        "mean": 0.771639993775314,
+        "sample_std": 0.0003093436175745249
+      },
+      "idshare": {
+        "mean": 0.776050782699136,
+        "sample_std": 0.0004896613183046308
+      },
+      "paired_difference": {
+        "maximum": 0.005280503017702554,
+        "mean": 0.0044107889238218885,
+        "minimum": 0.003901552247981499,
+        "positive_seed_count": 3,
+        "sample_std": 0.0007568581657195159,
+        "seed_count": 3
+      },
+      "per_seed": {
+        "2021": {
+          "continuous_validation_auc": 0.7719472659544877,
+          "idshare_minus_continuous": 0.003901552247981499,
+          "idshare_validation_auc": 0.7758488182024692
+        },
+        "2024": {
+          "continuous_validation_auc": 0.7716440958537891,
+          "idshare_minus_continuous": 0.004050311505781612,
+          "idshare_validation_auc": 0.7756944073595707
+        },
+        "42": {
+          "continuous_validation_auc": 0.7713286195176654,
+          "idshare_minus_continuous": 0.005280503017702554,
+          "idshare_validation_auc": 0.776609122535368
+        }
+      },
+      "response_from_zero": {
+        "continuous": 0.0009449327675689068,
+        "idshare": 0.0007907269006919293,
+        "interaction": -0.00015420586687697746
+      },
+      "source": "r02"
+    },
+    "1e-11": {
+      "coefficient": 1e-11,
+      "continuous": {
+        "mean": 0.7711000660018046,
+        "sample_std": 0.0001454892889964193
+      },
+      "idshare": {
+        "mean": 0.7759551700303894,
+        "sample_std": 0.000975746294289983
+      },
+      "paired_difference": {
+        "maximum": 0.0056712341626693474,
+        "mean": 0.004855104028584874,
+        "minimum": 0.003859477788105803,
+        "positive_seed_count": 3,
+        "sample_std": 0.0009191188330956042,
+        "seed_count": 3
+      },
+      "per_seed": {
+        "2021": {
+          "continuous_validation_auc": 0.7709524626442139,
+          "idshare_minus_continuous": 0.005034600134979472,
+          "idshare_validation_auc": 0.7759870627791934
+        },
+        "2024": {
+          "continuous_validation_auc": 0.7711043905632613,
+          "idshare_minus_continuous": 0.003859477788105803,
+          "idshare_validation_auc": 0.7749638683513671
+        },
+        "42": {
+          "continuous_validation_auc": 0.7712433447979383,
+          "idshare_minus_continuous": 0.0056712341626693474,
+          "idshare_validation_auc": 0.7769145789606077
+        }
+      },
+      "response_from_zero": {
+        "continuous": 0.000405004994059488,
+        "idshare": 0.0006951142319453485,
+        "interaction": 0.0002901092378858605
+      },
+      "source": "r02"
+    },
+    "1e-8": {
+      "coefficient": 1e-08,
+      "continuous": {
+        "mean": 0.7740213008915268,
+        "sample_std": 0.0001295534886106182
+      },
+      "idshare": {
+        "mean": 0.7720726279579045,
+        "sample_std": 0.001393001943117307
+      },
+      "paired_difference": {
+        "maximum": -0.0003602848240868983,
+        "mean": -0.0019486729336220716,
+        "minimum": -0.0030408776119152936,
+        "positive_seed_count": 0,
+        "sample_std": 0.0014074952652206967,
+        "seed_count": 3
+      },
+      "per_seed": {
+        "2021": {
+          "continuous_validation_auc": 0.7741691652578562,
+          "idshare_minus_continuous": -0.002444856364864023,
+          "idshare_validation_auc": 0.7717243088929922
+        },
+        "2024": {
+          "continuous_validation_auc": 0.773927716652778,
+          "idshare_minus_continuous": -0.0030408776119152936,
+          "idshare_validation_auc": 0.7708868390408627
+        },
+        "42": {
+          "continuous_validation_auc": 0.773967020763946,
+          "idshare_minus_continuous": -0.0003602848240868983,
+          "idshare_validation_auc": 0.7736067359398591
+        }
+      },
+      "response_from_zero": {
+        "continuous": 0.0033262398837816676,
+        "idshare": -0.003187427840539492,
+        "interaction": -0.006513667724321159
+      },
+      "source": "r02"
+    },
+    "1e-9": {
+      "coefficient": 1e-09,
+      "continuous": {
+        "mean": 0.7738115575677078,
+        "sample_std": 0.00022811895981316073
+      },
+      "idshare": {
+        "mean": 0.7744822860551479,
+        "sample_std": 0.0019747394441816833
+      },
+      "paired_difference": {
+        "maximum": 0.0019696173197413236,
+        "mean": 0.0006707284874400236,
+        "minimum": -0.0013978171706197084,
+        "positive_seed_count": 2,
+        "sample_std": 0.0018108513146571903,
+        "seed_count": 3
+      },
+      "per_seed": {
+        "2021": {
+          "continuous_validation_auc": 0.7737005109500896,
+          "idshare_minus_continuous": 0.0014403853131984556,
+          "idshare_validation_auc": 0.7751408962632881
+        },
+        "2024": {
+          "continuous_validation_auc": 0.7736602240507584,
+          "idshare_minus_continuous": -0.0013978171706197084,
+          "idshare_validation_auc": 0.7722624068801387
+        },
+        "42": {
+          "continuous_validation_auc": 0.7740739377022755,
+          "idshare_minus_continuous": 0.0019696173197413236,
+          "idshare_validation_auc": 0.7760435550220168
+        }
+      },
+      "response_from_zero": {
+        "continuous": 0.0031164965599627115,
+        "idshare": -0.0007777697432961306,
+        "interaction": -0.003894266303258842
+      },
+      "source": "r02"
+    },
+    "3e-10": {
+      "coefficient": 3e-10,
+      "continuous": {
+        "mean": 0.7724778996645165,
+        "sample_std": 0.00051565735723419
+      },
+      "idshare": {
+        "mean": 0.7756175465811658,
+        "sample_std": 0.0008140719479925554
+      },
+      "paired_difference": {
+        "maximum": 0.004220502984237373,
+        "mean": 0.0031396469166492524,
+        "minimum": 0.002538887362175002,
+        "positive_seed_count": 3,
+        "sample_std": 0.0009379910828569354,
+        "seed_count": 3
+      },
+      "per_seed": {
+        "2021": {
+          "continuous_validation_auc": 0.7730721267758662,
+          "idshare_minus_continuous": 0.0026595504035353823,
+          "idshare_validation_auc": 0.7757316771794016
+        },
+        "2024": {
+          "continuous_validation_auc": 0.772213544545504,
+          "idshare_minus_continuous": 0.002538887362175002,
+          "idshare_validation_auc": 0.774752431907679
+        },
+        "42": {
+          "continuous_validation_auc": 0.7721480276721796,
+          "idshare_minus_continuous": 0.004220502984237373,
+          "idshare_validation_auc": 0.776368530656417
+        }
+      },
+      "response_from_zero": {
+        "continuous": 0.0017828386567714238,
+        "idshare": 0.0003574907827217366,
+        "interaction": -0.0014253478740496872
+      },
+      "source": "r02"
+    },
+    "3e-9": {
+      "coefficient": 3e-09,
+      "continuous": {
+        "mean": 0.7745217145800346,
+        "sample_std": 0.00040430735569195426
+      },
+      "idshare": {
+        "mean": 0.770773641466158,
+        "sample_std": 0.0037544178679147808
+      },
+      "paired_difference": {
+        "maximum": -0.00035068549144101624,
+        "mean": -0.0037480731138765933,
+        "minimum": -0.007993537247765525,
+        "positive_seed_count": 0,
+        "sample_std": 0.003891364936528997,
+        "seed_count": 3
+      },
+      "per_seed": {
+        "2021": {
+          "continuous_validation_auc": 0.7748325623961929,
+          "idshare_minus_continuous": -0.007993537247765525,
+          "idshare_validation_auc": 0.7668390251484274
+        },
+        "2024": {
+          "continuous_validation_auc": 0.7740646374534099,
+          "idshare_minus_continuous": -0.002899996602423238,
+          "idshare_validation_auc": 0.7711646408509867
+        },
+        "42": {
+          "continuous_validation_auc": 0.7746679438905006,
+          "idshare_minus_continuous": -0.00035068549144101624,
+          "idshare_validation_auc": 0.7743172583990596
+        }
+      },
+      "response_from_zero": {
+        "continuous": 0.0038266535722895068,
+        "idshare": -0.004486414332286026,
+        "interaction": -0.008313067904575533
+      },
+      "source": "r02"
+    }
+  },
+  "protocol": "taac_unifiedmixer_l2_response_r02",
+  "readout_status": "BACKBONE_L2_RESPONSE_DIAGNOSTIC_COMPLETE",
+  "uses_test_dataset": false,
+  "uses_test_labels": false,
+  "zero_dose_anchor_readout_sha256": "f2a4a6515919e84e32a7e35673bde8cb497a4f7e58951f02c518adb6176d01b7"
+}

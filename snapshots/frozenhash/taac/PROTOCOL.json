@@ -1,0 +1,62 @@
+{
+  "allowed_splits": [
+    "train",
+    "validation"
+  ],
+  "anchor_readout": "/workspace/IDShare/explore/end_to_end_discrete_feature_representation/model_robustness/reports/taac_unifiedmixer_no_l2_bridge_20260831_r01_fix1/MECHANICAL_READOUT.json",
+  "anchor_readout_sha256": "f2a4a6515919e84e32a7e35673bde8cb497a4f7e58951f02c518adb6176d01b7",
+  "anchor_structural": "/workspace/IDShare/explore/end_to_end_discrete_feature_representation/model_robustness/reports/taac_unifiedmixer_no_l2_bridge_20260831_r01_fix1/STRUCTURAL_READOUT.json",
+  "anchor_structural_sha256": "018f097af8842b96538d6223850991c6730527f4d25092f6ce456d62eb86be1c",
+  "authorization": "Author explicitly authorized preparation and submission on 2026-09-07.",
+  "automatic_retry_allowed": false,
+  "backward": "assigned-code direct gradient plus identity straight-through to routing state; no soft nearest-code surrogate",
+  "best_k_selected": false,
+  "best_seed_selected": false,
+  "check_steps": 32,
+  "codebook_loss_weight": 1.0,
+  "codebook_size": 20000,
+  "commitment_weight": 0.0,
+  "comparison_scope": "Fixed-assignment control at matched visible code capacity, not a backward-identical isolation of hard assignment alone.",
+  "engineering_job_budget": 1,
+  "expected_base_parameters": 364685155,
+  "expected_identity_rows": 17487680,
+  "expected_train_rows": 131222882,
+  "expected_validation_rows": 21951746,
+  "formal_job_budget": 3,
+  "global_l2": 0.0,
+  "hash_rule": "1 + (((id-4)*1103515245 + (seed & 0x7fffffff)) % 2147483647) % (K-1)",
+  "parent_matrix_sha256": "5ea69af3fb1a38ccd106799e946999ce1a742cfc5d69aa2b8e04101c4d427773",
+  "parent_package_sha256": "c51c3b00a41ea1c44941cb2d51dec14e9478c61e9ddc7aeb3c9fed8d2d9f91c7",
+  "private_row_initialization_mode": "train_first_touch_frozen_deterministic_code",
+  "protocol": "strong_frozenhash_20260907_r01",
+  "routing_table_retained": true,
+  "runs": {
+    "frozenhash_s2021": {
+      "method": "frozenhash",
+      "run_key": "frozenhash_s2021",
+      "seed": 2021
+    },
+    "frozenhash_s2024": {
+      "method": "frozenhash",
+      "run_key": "frozenhash_s2024",
+      "seed": 2024
+    },
+    "frozenhash_s42": {
+      "method": "frozenhash",
+      "run_key": "frozenhash_s42",
+      "seed": 42
+    }
+  },
+  "seeds": [
+    2021,
+    42,
+    2024
+  ],
+  "setting": "taac",
+  "shared_codebook_trainable": true,
+  "special_rows": "Original data mapping/base/missing/reserved paths retained; frozen quantizer sends special IDs to code 0.",
+  "uses_test_dataset": false,
+  "uses_test_labels": false,
+  "validation_auc_blind_until_setting_complete": true,
+  "weight_decay": 0.0
+}

@@ -1,0 +1,233 @@
+{
+  "allowed_splits": [
+    "train",
+    "validation"
+  ],
+  "anchor_k": 40000,
+  "anchor_quantizers": {
+    "2024": {
+      "assignment_freeze_fraction": 0.0,
+      "assignment_stability_mode": "free_nearest",
+      "assignment_switch_relative_improvement": 0.0,
+      "audit_enabled": false,
+      "base_embedding_mode": "split_zero_base",
+      "code_init_radius": 0.2,
+      "codebook_loss_weight": 1.0,
+      "codebook_ramp_fraction": 0.0,
+      "codebook_release_fraction": 0.0,
+      "codebook_size": 40000,
+      "codebook_transform_mode": "none",
+      "commitment_weight": 0.0,
+      "compact_distance_outputs": true,
+      "continuous_residual": false,
+      "defer_cumulative_diagnostics": true,
+      "distance_backend": "gemm",
+      "distance_row_chunk_size": 1024,
+      "enabled": true,
+      "identity_fields": [
+        "video_id"
+      ],
+      "initialization_seed": 2021,
+      "isolate_initialization_rng": true,
+      "margin": 0.1,
+      "num_residual_levels": 1,
+      "num_subspaces": 1,
+      "private_row_initialization_mode": "train_first_touch_deterministic_code",
+      "regularization_ramp_fraction": 0.0,
+      "regularization_release_fraction": 0.0,
+      "sparse_batch_diagnostics": true,
+      "task_codebook_gradient_mode": "legacy_hard_plus_soft",
+      "temperature_end": 0.3,
+      "temperature_start": 1.0,
+      "zero_l2_weight": 0.0
+    },
+    "42": {
+      "assignment_freeze_fraction": 0.0,
+      "assignment_stability_mode": "free_nearest",
+      "assignment_switch_relative_improvement": 0.0,
+      "audit_enabled": false,
+      "base_embedding_mode": "split_zero_base",
+      "code_init_radius": 0.2,
+      "codebook_loss_weight": 1.0,
+      "codebook_ramp_fraction": 0.0,
+      "codebook_release_fraction": 0.0,
+      "codebook_size": 40000,
+      "codebook_transform_mode": "none",
+      "commitment_weight": 0.0,
+      "compact_distance_outputs": true,
+      "continuous_residual": false,
+      "defer_cumulative_diagnostics": true,
+      "distance_backend": "gemm",
+      "distance_row_chunk_size": 1024,
+      "enabled": true,
+      "identity_fields": [
+        "video_id"
+      ],
+      "initialization_seed": 2021,
+      "isolate_initialization_rng": true,
+      "margin": 0.1,
+      "num_residual_levels": 1,
+      "num_subspaces": 1,
+      "private_row_initialization_mode": "train_first_touch_deterministic_code",
+      "regularization_ramp_fraction": 0.0,
+      "regularization_release_fraction": 0.0,
+      "sparse_batch_diagnostics": true,
+      "task_codebook_gradient_mode": "legacy_hard_plus_soft",
+      "temperature_end": 0.3,
+      "temperature_start": 1.0,
+      "zero_l2_weight": 0.0
+    },
+    "933888": {
+      "assignment_freeze_fraction": 0.0,
+      "assignment_stability_mode": "free_nearest",
+      "assignment_switch_relative_improvement": 0.0,
+      "audit_enabled": false,
+      "base_embedding_mode": "split_zero_base",
+      "code_init_radius": 0.2,
+      "codebook_loss_weight": 1.0,
+      "codebook_ramp_fraction": 0.0,
+      "codebook_release_fraction": 0.0,
+      "codebook_size": 40000,
+      "codebook_transform_mode": "none",
+      "commitment_weight": 0.0,
+      "compact_distance_outputs": true,
+      "continuous_residual": false,
+      "defer_cumulative_diagnostics": true,
+      "distance_backend": "gemm",
+      "distance_row_chunk_size": 1024,
+      "enabled": true,
+      "identity_fields": [
+        "video_id"
+      ],
+      "initialization_seed": 2021,
+      "isolate_initialization_rng": true,
+      "margin": 0.1,
+      "num_residual_levels": 1,
+      "num_subspaces": 1,
+      "private_row_initialization_mode": "train_first_touch_deterministic_code",
+      "regularization_ramp_fraction": 0.0,
+      "regularization_release_fraction": 0.0,
+      "sparse_batch_diagnostics": true,
+      "task_codebook_gradient_mode": "legacy_hard_plus_soft",
+      "temperature_end": 0.3,
+      "temperature_start": 1.0,
+      "zero_l2_weight": 0.0
+    }
+  },
+  "anchor_readout": "/workspace/IDShare/explore/end_to_end_discrete_feature_representation/model_robustness/reports/kuairand_rankmixer_v2_no_l2_bridge_20260831_r01_fix1/MECHANICAL_READOUT.json",
+  "anchor_readout_sha256": "b3e8a429ad5cb809c367559e586d8d318f62d71599799edc7f574d0c9d8e022f",
+  "anchor_source_files": {
+    "/workspace/IDShare/explore/end_to_end_discrete_feature_representation/model_robustness/reports/kuairand_rankmixer_v2_no_l2_bridge_20260831_r01_fix1/SUBMISSIONS.json": "837927fcc20a4bb3a2b3e527172a474218039dd7de939996917b02b2144feaf2",
+    "/workspace/IDShare/explore/end_to_end_discrete_feature_representation/model_robustness/reports/kuairand_rankmixer_v2_no_l2_bridge_20260831_r01_fix1/candidate_reports/20260831_115504_a2290217/training_report.json": "6472064275aaeaa15b96efb4bb012906732e052e6bc8108e31cd7a9244f9dd0d",
+    "/workspace/IDShare/explore/end_to_end_discrete_feature_representation/model_robustness/reports/kuairand_rankmixer_v2_no_l2_bridge_20260831_r01_fix1/candidate_reports/20260831_115505_944e31a9/training_report.json": "e0e77bb94d0598298375cc28a10c9ca111e22abf2e03e7c071165afc5403985a",
+    "/workspace/IDShare/explore/end_to_end_discrete_feature_representation/model_robustness/reports/kuairand_rankmixer_v2_no_l2_bridge_20260831_r01_fix1/candidate_reports/20260831_115506_a357d943/training_report.json": "87dabc8026a339f038ea35c4d08cc56c8fff3377a56fb738395dd72a192eab2c"
+  },
+  "anchor_structural": "/workspace/IDShare/explore/end_to_end_discrete_feature_representation/model_robustness/reports/kuairand_rankmixer_v2_no_l2_bridge_20260831_r01_fix1/STRUCTURAL_READOUT.json",
+  "anchor_structural_sha256": "055bde03ed0eba45f7b7ae20d737b8bc8e23f046a0f7fbcf94d5e3333979b899",
+  "automatic_retry_allowed": false,
+  "best_k_selected": false,
+  "codebook_size": 40000,
+  "depth": 2,
+  "depth2_parameter_counts": {
+    "continuous": 702347695,
+    "idshare": 703067761
+  },
+  "depth_freeze_sha256": "d15f9c5f69b2881d64cf8e9fbf39e38771f877050a1d48890103956e73d23411",
+  "depth_package_sha256": "2d95a7f557598e9d7bf5dce237eb06bd7887e0368a15dfe9614d294b4f31196a",
+  "depth_repair_freeze_sha256": "1f4ad3cda27e5280d23715923a9a30865f82285975fc9d4ae31a147b99cf20e1",
+  "depths": [
+    2
+  ],
+  "engineering_job_budget": 0,
+  "expected_identity_rows": 25020526,
+  "expected_train_rows": 243480365,
+  "expected_validation_rows": 12080526,
+  "formal_job_budget": 6,
+  "global_l2": 0.0,
+  "ks": [
+    20000,
+    40000,
+    80000
+  ],
+  "local_routes_checked": 9,
+  "new_ks": [
+    20000,
+    80000
+  ],
+  "only_scientific_change": "codebook_size",
+  "paper_changes_allowed": false,
+  "parameters_per_block": 1414362,
+  "parent_matrix_sha256": "3e71d7234d999da4fb8244d06cc88cac7db0d1aeb452f2c9ea410a6e8e32602f",
+  "parent_package_sha256": "24b551736853f8200f5624f14df954c41aeb50ef9503e1c789db0c47c4ffe267",
+  "parent_source_files_unchanged": true,
+  "protocol": "strong_k_robustness_20260910_r01",
+  "runs": {
+    "k20000_idshare_s2024": {
+      "depth": 2,
+      "expected_parameters": 702707761,
+      "k": 20000,
+      "method": "idshare",
+      "run_key": "k20000_idshare_s2024",
+      "seed": 2024
+    },
+    "k20000_idshare_s42": {
+      "depth": 2,
+      "expected_parameters": 702707761,
+      "k": 20000,
+      "method": "idshare",
+      "run_key": "k20000_idshare_s42",
+      "seed": 42
+    },
+    "k20000_idshare_s933888": {
+      "depth": 2,
+      "expected_parameters": 702707761,
+      "k": 20000,
+      "method": "idshare",
+      "run_key": "k20000_idshare_s933888",
+      "seed": 933888
+    },
+    "k80000_idshare_s2024": {
+      "depth": 2,
+      "expected_parameters": 703787761,
+      "k": 80000,
+      "method": "idshare",
+      "run_key": "k80000_idshare_s2024",
+      "seed": 2024
+    },
+    "k80000_idshare_s42": {
+      "depth": 2,
+      "expected_parameters": 703787761,
+      "k": 80000,
+      "method": "idshare",
+      "run_key": "k80000_idshare_s42",
+      "seed": 42
+    },
+    "k80000_idshare_s933888": {
+      "depth": 2,
+      "expected_parameters": 703787761,
+      "k": 80000,
+      "method": "idshare",
+      "run_key": "k80000_idshare_s933888",
+      "seed": 933888
+    }
+  },
+  "seeds": [
+    42,
+    2024,
+    933888
+  ],
+  "setting": "kuairand",
+  "startup_synthetic_steps": 3,
+  "submission_order": [
+    "k20000_idshare_s42",
+    "k80000_idshare_s42",
+    "k20000_idshare_s2024",
+    "k80000_idshare_s2024",
+    "k20000_idshare_s933888",
+    "k80000_idshare_s933888"
+  ],
+  "uses_test_dataset": false,
+  "uses_test_labels": false,
+  "validation_auc_blind_until_setting_complete": true,
+  "weight_decay": 0.0
+}

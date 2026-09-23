@@ -1,0 +1,62 @@
+{
+  "allowed_splits": [
+    "train",
+    "validation"
+  ],
+  "anchor_readout": "/workspace/IDShare/explore/end_to_end_discrete_feature_representation/model_robustness/reports/kuairand_rankmixer_v2_no_l2_bridge_20260831_r01_fix1/MECHANICAL_READOUT.json",
+  "anchor_readout_sha256": "b3e8a429ad5cb809c367559e586d8d318f62d71599799edc7f574d0c9d8e022f",
+  "anchor_structural": "/workspace/IDShare/explore/end_to_end_discrete_feature_representation/model_robustness/reports/kuairand_rankmixer_v2_no_l2_bridge_20260831_r01_fix1/STRUCTURAL_READOUT.json",
+  "anchor_structural_sha256": "055bde03ed0eba45f7b7ae20d737b8bc8e23f046a0f7fbcf94d5e3333979b899",
+  "authorization": "Author explicitly authorized preparation and submission on 2026-09-07.",
+  "automatic_retry_allowed": false,
+  "backward": "assigned-code direct gradient plus identity straight-through to routing state; no soft nearest-code surrogate",
+  "best_k_selected": false,
+  "best_seed_selected": false,
+  "check_steps": 32,
+  "codebook_loss_weight": 1.0,
+  "codebook_size": 40000,
+  "commitment_weight": 0.0,
+  "comparison_scope": "Fixed-assignment control at matched visible code capacity, not a backward-identical isolation of hard assignment alone.",
+  "engineering_job_budget": 1,
+  "expected_base_parameters": 703067761,
+  "expected_identity_rows": 25020526,
+  "expected_train_rows": 243480365,
+  "expected_validation_rows": 12080526,
+  "formal_job_budget": 3,
+  "global_l2": 0.0,
+  "hash_rule": "1 + (((id-4)*1103515245 + (seed & 0x7fffffff)) % 2147483647) % (K-1)",
+  "parent_matrix_sha256": "3e71d7234d999da4fb8244d06cc88cac7db0d1aeb452f2c9ea410a6e8e32602f",
+  "parent_package_sha256": "24b551736853f8200f5624f14df954c41aeb50ef9503e1c789db0c47c4ffe267",
+  "private_row_initialization_mode": "train_first_touch_frozen_deterministic_code",
+  "protocol": "strong_frozenhash_20260907_r01",
+  "routing_table_retained": true,
+  "runs": {
+    "frozenhash_s2024": {
+      "method": "frozenhash",
+      "run_key": "frozenhash_s2024",
+      "seed": 2024
+    },
+    "frozenhash_s42": {
+      "method": "frozenhash",
+      "run_key": "frozenhash_s42",
+      "seed": 42
+    },
+    "frozenhash_s933888": {
+      "method": "frozenhash",
+      "run_key": "frozenhash_s933888",
+      "seed": 933888
+    }
+  },
+  "seeds": [
+    42,
+    2024,
+    933888
+  ],
+  "setting": "kuairand",
+  "shared_codebook_trainable": true,
+  "special_rows": "Original data mapping/base/missing/reserved paths retained; frozen quantizer sends special IDs to code 0.",
+  "uses_test_dataset": false,
+  "uses_test_labels": false,
+  "validation_auc_blind_until_setting_complete": true,
+  "weight_decay": 0.0
+}
